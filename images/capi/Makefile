@@ -159,6 +159,7 @@ deps-nutanix:
 	hack/ensure-ansible.sh
 	hack/ensure-packer.sh
 	hack/ensure-goss.sh
+	hack/ensure-s3.sh
 
 .PHONY: deps-release
 deps-release: ## Installs/checks dependencies for project releases
