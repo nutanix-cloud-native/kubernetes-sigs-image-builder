@@ -110,7 +110,7 @@
   ],
   "variables": {
     "ansible_common_vars": "",
-    "ansible_extra_vars": "",
+    "ansible_extra_vars": "ansible_sudo_pass={{user `ssh_password`}}",
     "ansible_user_vars": "",
     "build_timestamp": "{{timestamp}}",
     "containerd_sha256": null,
